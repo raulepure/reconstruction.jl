@@ -15,10 +15,14 @@ How to install OSCAR and the code:
 - Install JULIA 1.x.y with x => 4 on your computer (see https://github.com/JuliaLang/julia/tree/v1.4.2)
 - Start JULIA
 - Press "]" 
-- run the command: "dev https://github.com/oscar-system/Oscar.jl"
+- run the command: 
+```
+dev "https://github.com/oscar-system/Oscar.jl" 
+```
 - Copy the folder "Singularities" and the file "reconstruction.jl" into "$HOME/.julia/dev/Oscar/examples/"
 
 Here is an example:
+
 After starting JULIA run the commands:
 ```
 using Oscar
