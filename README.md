@@ -5,8 +5,8 @@ Given an ideal $I$ in a polynomial ring over the rational numbers, it uses a Las
 the given algebra defined by the ideal is isomorphic to the Tjurina algebra of a quasi-homogeneous isolated
 hypersurface singularity or not. 
 
-In case the result is positive it returns the defining equation of the hypersurface singularity and an automorphism $f$,
-such that $f(I)$ is the Jacobian ideal of $f$.
+In case the result is positive it returns the defining equation $g$ of the hypersurface singularity and an automorphism $f$,
+such that $f(I)$ is the Jacobian ideal of $g$.
 
 For the moment you need a LINUX operating system and Julia 1.4.x or higher with a develpoment-version of 
 OSCAR v0.4 to make it work.
